@@ -45,6 +45,6 @@ public class CalculateTest {
   public void sumeven() {
     Calculate calculate = new Calculate();
     int expected = 30;
-    assertEquals(expected, calculate.sumodd(1, 10));
+    assertEquals(expected, calculate.sumeven(1, 10));
   }
 }
